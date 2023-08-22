@@ -1,5 +1,9 @@
 #include "main.h"
 
+/* Function prototypes */
+int count_digits(int num);
+char *generate_buffer(int num, int digits);
+
 /**
 * print_int - Print an integer
 * @args: The va_list containing the integer to print
